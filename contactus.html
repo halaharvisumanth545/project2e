@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Sumanth Raj Halaharvi">
+        <meta name="description" content="Meta Project">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="contactus-css.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav id="navbar">
+                <a href="index.html" class="heading" id="home"><div>Home</div></a>
+                <a href="index.html#au" class="heading" id="aboutus"><div>About Us</div></a>
+                <a href="variety.html" class="heading" id="variety"><div>Explore types of roof gardening</div></a>
+                <a href="information.html" class="heading" id="info"><div>Information</div></a>
+                <a href="index.html#hts" class="heading" id="htgs"><div>How to get started</div></a>
+                <a href="contactus.html" class="heading" id="contactus"><div>Contact Us</div></a>
+            </nav>
+        </header>
+        <main>
+            <h2 id="mheading">Fill your details and enter your valuable message!!</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <div class="form">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name">
+                </div> 
+                <div class="form">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form" id="message">
+                    <label for="message1" class="message" id="mess">Your Message: <br></label>
+                <textarea class="message" name="message1" id="message1" cols="50" rows="5" placeholder="Type your message here"></textarea>
+                </div class="form">
+                <div class="form" id="buttons">
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div id="foot">
+                &copy; Sumanth Raj Halaharvi
+            </div>
+        </footer>
+    </body>
+</html>
